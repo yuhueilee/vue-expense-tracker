@@ -6,8 +6,8 @@
 </template>
 
 <script>
-import ExpenseHeader from './components/Header.vue'
 import BalanceItem from './components/Balance.vue'
+import ExpenseHeader from './components/Header.vue'
 
 export default {
   components: {

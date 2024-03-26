@@ -1,5 +1,5 @@
-import BalanceItem from '../Balance.vue'
 import { describe, expect, it } from 'vitest'
+import BalanceItem from '../Balance.vue'
 import { mount } from '@vue/test-utils'
 
 describe('balance component', () => {
