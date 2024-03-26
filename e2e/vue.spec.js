@@ -4,5 +4,5 @@ import { test, expect } from '@playwright/test'
 // https://playwright.dev/docs/intro
 test('visits the app root url', async ({ page }) => {
   await page.goto('/')
-  await expect(page.getByText('My App')).toBeVisible()
+  await expect(page.getByText('Expense Tracker')).toBeVisible()
 })
