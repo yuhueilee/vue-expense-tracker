@@ -1,4 +1,7 @@
-<template><ExpenseHeader /></template>
+<template>
+  <ExpenseHeader />
+  <div class="container"></div>
+</template>
 
 <script>
 import ExpenseHeader from './components/Header.vue'
